@@ -479,7 +479,7 @@ video{
     .q {
         position: absolute;
         left: 1%;
-        top: 15%;
+        top: 23%;
         width: 100%;
         
     }
@@ -489,7 +489,7 @@ video{
         height: 40px;
         padding-left: 40px;
         color: white;
-        font-size: 20px;
+        font-size: 17px;
     }
     .body {
         display: block;
@@ -501,7 +501,7 @@ video{
         width: 90%;
         height:  1350px;
         position: absolute;
-        top: 35%;
+        top: 45%;
         left: 5%;
         border: 1px solid grey;
     }
