@@ -481,6 +481,7 @@ video{
         left: 1%;
         top: 15%;
         width: 100%;
+        
     }
     .q1 input[type="text"] {
         position: relative;
@@ -500,7 +501,7 @@ video{
         width: 90%;
         height:  1350px;
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 5%;
         border: 1px solid grey;
     }
