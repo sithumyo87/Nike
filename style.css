@@ -371,12 +371,22 @@ video{
         margin-bottom: 10px;
     }
     .navigation ul li a {
-        font-size:20px;
-        margin-left: 7px;
+        font-size:16px;
+        margin-left: 8px;
         text-decoration: none;
         color: white;
         letter-spacing: 1px;
     }
+    .video span {
+        font-size: 15px;
+        color: white;
+        letter-spacing: 1px;
+        margin-left: 1px;
+    }
+    .video img{
+        width:35px;
+    }
+
     .navigation {
         position: absolute;
         top: 70px;
@@ -398,11 +408,24 @@ video{
         text-align: center;
         color: #616161;
         font-weight: 300;
+        
+    }
+    .sci {
+        position: absolute;
+        bottom: 2%;
+        right: 15%;
+    }
+    .sci ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .sci ul li a {
-        margin-left: 15px;
+        margin-left: 5px;
         transform: scale();
         filter: none;
+        width: 15px;
+        margin-bottom: 10px;
     }
     video {
         width: 90%;
@@ -436,7 +459,7 @@ video{
         left: 0%;
         width: 100%;
         color: #dfe6e9;
-        font-size: 23px;
+        font-size: 20px;
         
     }
     .CEO .CEO2 {
@@ -455,13 +478,13 @@ video{
     }
     .q {
         position: absolute;
-        left: 0%;
+        left: 1%;
         top: 15%;
         width: 100%;
     }
     .q1 input[type="text"] {
         position: relative;
-        width: 300px;
+        width: 260px;
         height: 40px;
         padding-left: 40px;
         color: white;
@@ -471,19 +494,19 @@ video{
         display: block;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 20px;
+        
     }
     .service {
         width: 90%;
-        height:  1070px;
-        border: 1px solid grey;
+        height:  1350px;
         position: absolute;
-        top: 28%;
+        top: 30%;
         left: 5%;
-        
+        border: 1px solid grey;
     }
     .header {
         width: 88%;
-        height: 120px;
+        height: 180px;
         padding: 20px;
         border-bottom: 1px solid grey;
     }
@@ -495,12 +518,12 @@ video{
         color: white;
     }
     .header1 h2 {
-        font-size: 30px;
+        font-size: 26px;
         color: #0984e3;
         text-align: center;
     }
     .header1 p {
-        font-size: 20px;
+        font-size: 17px;
     }
     .nav {
         display: flex;
